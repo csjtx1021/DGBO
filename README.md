@@ -4,7 +4,8 @@ attributed graphs. It prevents the cubical complexity of the GPs by adopting a d
 network to surrogate black-box functions, and can scale linearly with the number of observations.
 Applications include molecular discovery and urban road network design.
 
-If you want to run this code, you should ensure that you have installed the following packages:
+If you want to run this code, you should ensure that the following packages have been installed 
+successfully:
 
     tensorFlow
     spicy
@@ -13,7 +14,7 @@ If you want to run this code, you should ensure that you have installed the foll
     emcee
     networkx
 
-After you installed all dependency packages, you can run this code with the default setting as:
+Once you install all dependency packages, you can run this code with the default setting as:
 
 $$ python DGBO.py --run=True
 
