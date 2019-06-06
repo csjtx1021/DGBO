@@ -5,6 +5,7 @@ ctions, and can scale linearly with the number of observations. Applications inc
 very and urban road network design.
 
 If you want to run this code, you should ensure that you have installed the following packages:
+
     tensorFlow
     spicy
     pickle
@@ -13,10 +14,12 @@ If you want to run this code, you should ensure that you have installed the foll
     networkx
 
 After you installed all dependency packages, you can run this code with the default setting as:
-$$ python DGBO.py --run=True
-, or you can see the help message by running as:
-$$ python DGBO.py -h
 
+$$ python DGBO.py --run=True
+
+, or you can see the help message by running as:
+
+$$ python DGBO.py -h
 
 Note: If you try the zinc dataset, you should run “genConvMolFeatures.py” in “rdkit_preprocessing/” 
 to convert SMILES strings to attributed graphs including xxx-attr.pkl, xxx-graph.pkl, and xxx-label.pkl.
