@@ -1,4 +1,5 @@
-This code is implemented according to paper "Deep Bayesian Optimization on Attributed graphs".
+This code is implemented according to paper "Deep Bayesian Optimization on Attributed graphs",
+https://arxiv.org/abs/1905.13403.
 Deep Graph Bayesian Optimization (DGBO) method can deal with attributed graphs. It prevents the 
 cubical complexity of the GPs by adopting a deep graph neural network to surrogate black-box 
 functions, and can scale linearly with the number of observations. Applications include molecular 
